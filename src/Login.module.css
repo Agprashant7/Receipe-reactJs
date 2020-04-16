@@ -1,0 +1,65 @@
+
+
+
+.loginContainer{
+    margin-top: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 25%;
+    height: 250px;
+    background-color: white;
+    box-sizing: content-box;
+    border: 2px solid black;
+    border-radius: 14px;
+
+}
+.box{
+    margin-top: 20px;
+    margin-left: 10px;
+    margin-right: 10px;
+    width: 90%;
+    padding-top: 12px;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+
+}
+.button{
+    padding-bottom: 10px;
+    padding-top: 10px;
+    border: none;
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+    width: 90%;
+    cursor:pointer;
+
+}
+.nameErr{
+    display:none;
+    font-size:12px;
+}
+input:focus {
+  border: 1px solid #555;
+}
+input{
+    border:none;
+}
+h2{
+    color:whitesmoke;
+}
+
+@media screen and (max-width: 576px){
+    .loginContainer{
+    margin-top: 150px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 55%;
+    height: 250px;
+    background-color: white;
+    box-sizing: content-box;
+    border: 2px solid black;
+    border-radius: 14px;
+
+}
+
+}
